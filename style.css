@@ -8,21 +8,25 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
 header h1 {
   line-height: 60px;
   margin: 0 10px;
 }
+
 main {
   margin-left: auto;
   margin-right: auto;
   width: 880px;
   border: 1px solid #010d35;
 }
+
 .text {
   font-size: 15px;
   color: #010d35;
   font-family: Verdana, sans-serif;
 }
+
 .text_1 {
   font-size: 15px;
   color: #010d35;
@@ -35,6 +39,7 @@ main {
   font-family: Verdana, sans-serif;
   font-style: italic;
 }
+
 .block {
   display: flex;
   align-items: flex-start;
@@ -46,19 +51,23 @@ main {
   width: 880px;
   height: 400px;
 }
+
 .block_image {
   margin-right: 15px;
 }
+
 .block_body {
   flex: 1;
   font-size: 15px;
   color: #010d35;
   font-family: Verdana, sans-serif;
 }
+
 .block_section {
   display: flex;
   flex-direction: row;
 }
+
 .block_left {
   flex: 45%;
   background: #e5f7f6;
@@ -67,6 +76,7 @@ main {
   border-right: 1px solid #285554;
   height: 700px;
 }
+
 .block_right {
   flex: 45%;
   background: #e5f7f6;
@@ -74,6 +84,7 @@ main {
   color: #010d35;
   height: 700px;
 }
+
 footer {
   height: 100px;
   width: 880px;
@@ -86,6 +97,7 @@ footer {
   margin-right: auto;
   margin-bottom: 0;
 }
+
 footer p {
   margin: 5px;
 }

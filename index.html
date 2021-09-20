@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     </header>
     <main>
         <div class="block">
-            <img class="block_image" src="\PSERPbSyWJQ.jpg" alt="Foto" width="320px" height="400px">
+            <img class="block_image" src="Foto2.jpg" alt="Foto" width="300" height="400">
             <div class="block_body">
                 <p>I'm an engineer of Heat Energy.</p>
                 <p>I'm engaged in the design of boiler houses, heating points,</p>
@@ -67,13 +67,30 @@
                     <li>css (beginner)</li>
                     <li>git (beginner)</li>
                 </ul>
+                <h4 class="title">Code Example</h4>
+                <pre>
+                    <code>
+    function stray(numbers) {
+    let nmb = numbers[0];
+    if (nmb !== numbers[1] && nmb !== numbers[2]) {
+    return nmb;
+      }
+    for (let i=1; i < numbers.length; i++) {
+    if (nmb !== numbers[i] && numbers[i] !== numbers[i-1]) {
+      nmb = numbers[i];
+      return nmb;
+      }
+     }
+    }
+                    </code>
+                </pre>
             </section>
         </div>
     </main>
     <footer>
         <a href="https://github.com/KaterinaYurkevich">Ekaterina Yurkevich</a>
         <p>2021</p>
-        <img src="https://rs.school/images/rs_school_js.svg" width="50px" height="25px">
+        <img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="50" height="25">
         <p><a href="https://rs.school/js/">RS.School.JS</a></p>
     </footer>
 </body>
